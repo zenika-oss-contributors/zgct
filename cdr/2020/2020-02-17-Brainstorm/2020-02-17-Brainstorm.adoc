@@ -1,0 +1,51 @@
+= Brainstorm
+Zenika GCT (Game Creators Team)
+v1.0, 2020-02-17
+:imagesdir: images
+:toc:
+:toc-title: Sommaire
+
+
+
+image::brainstorm.png[Brainstorm illustration]
+
+.Idée principale
+****
+Faire un jeu sur la carrière d’un·e informaticien·e
+****
+
+[TIP]
+====
+* Commencer facile, step by step
+* Faire des POCS
+* Écrire un Game Design Document
+====
+
+= Type
+Plateforme
+
+= Éléments de scénario
+
+* Jeune diplômé·e fait “l’erreur” d’aller dans une grosse entreprise (BigCompany.com)
+* Son commercial lui donne plusieurs choix de missions
+** Chaque missions -> mini jeu de plateforme pour aller chercher des pièces
+* Fait un burnout
+* Découverte du blog de Zenika et de son écosystème -> Révélation ultime
+
+= Caractéristiques
+* Plusieurs personnalités de personnage
+* Technos différentes
+* XP dans le jeu : années d’éxpérience
+
+= Population visée
+* Consultant·e·s en général
+* Tout public ?
+
+= Feature creep
+* Déployer sur une borne d’arcade
+* Mettre de la sécurité pour Loris :) (Ça peut être un niveau dans le jeu à la manière d'Uplink !)
+
+.Pour la prochaine séance
+****
+Faire chacun·e une ébauche de Game Design Document afin de mettre en commun nos idées
+****
