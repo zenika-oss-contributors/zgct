@@ -4,14 +4,20 @@
  
 * Install ascidoctor-pdf
 
+----
     $ gem install asciidoctor-pdf --pre
+----
 
 * Launch script
 
+----
     $ cd docs
     $ asciidoctor -r asciidoctor-pdf -o gdd.pdf -b pdf index.adoc
+----
 
 * (Optional) Optimize the generated pdf
 
+----
     $ gem install hexapdf
     $ hexapdf optimize --compress-pages --force index.pdf index.pdf
+----

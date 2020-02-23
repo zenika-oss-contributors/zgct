@@ -1,6 +1,6 @@
 = Game Design Document
 Zenika GCT (Game Creators Team)
-v1.0, 2020-02-17
+v1.0, 2020-02-23
 :imagesdir: images
 :toc:
 :toc-title: Sommaire
@@ -12,80 +12,291 @@ v1.0, 2020-02-17
 <<<
 
 == Présentation générale
+
+ifdef::env-github[]
+
+link:general_pres/philosophie.adoc[Philosophie]
+
+link:general_pres/faq.adoc[Faq]
+
+endif::[]
+
+ifndef::env-github[]
+
 include::general_pres/philosophie.adoc[]
+
 include::general_pres/faq.adoc[]
+
+endif::[]
+
+
 
 <<<
 
 == Mécaniques de jeu (Game Mechanics)
+
+ifdef::env-github[]
+
+
+link:mechanics/gameplay.adoc[Gameplay]
+
+link:mechanics/leveldesign.adoc[Level Design]
+
+link:mechanics/gameengine.adoc[Moteur du jeu]
+
+endif::[]
+
+ifndef::env-github[]
+
 include::mechanics/gameplay.adoc[]
+
 include::mechanics/leveldesign.adoc[]
+
 include::mechanics/gameengine.adoc[]
+
+endif::[]
+
 
 <<<
 
 == Interface utilisateur
+
+ifdef::env-github[]
+
+link:ui/general_view.adoc[Vue générale]
+
+link:ui/flow_graph.adoc[Graphe des flux]
+
+link:ui/functional_procedures.adoc[Procédures fonctionnelles]
+
+link:ui/gui.adoc[Les objets de l’interface GUI]
+
+link:ui/control_devices.adoc[Les périphériques de contrôle]
+
+endif::[]
+
+ifndef::env-github[]
+
 include::ui/general_view.adoc[]
+
 include::ui/flow_graph.adoc[]
+
 include::ui/functional_procedures.adoc[]
+
 include::ui/gui.adoc[]
+
 include::ui/control_devices.adoc[]
+
+endif::[]
+
 
 <<<
 
 == Editeurs (univers et entités)
+
+ifdef::env-github[]
+
+link:tools/index.adoc[Editeurs]
+
+endif::[]
+
+ifndef::env-github[]
+
 include::tools/index.adoc[]
+
+endif::[]
+
+
 
 <<<
 
 == L’univers du jeu
+
+ifdef::env-github[]
+
+link:world/general_view.adoc[Vue générale]
+
+link:world/places.adoc[Endroits - Lieux]
+
+link:world/travel.adoc[Voyage]
+
+link:world/scale.adoc[Echelle]
+
+link:world/weather.adoc[Temps et Climat]
+
+endif::[]
+
+ifndef::env-github[]
+
 include::world/general_view.adoc[]
+
 include::world/places.adoc[]
+
 include::world/travel.adoc[]
+
 include::world/scale.adoc[]
+
 include::world/weather.adoc[]
+
+endif::[]
 
 <<<
 
 == Les entités de l’univers
+
+ifdef::env-github[]
+
+link:entities/general_view.adoc[Vue générale]
+
+link:entities/playable_entities.adoc[Les entités jouables]
+
+link:entities/entities_not_playable.adoc[Les entités non jouables]
+
+link:entities/objects.adoc[Les objets]
+
+link:entities/skills.adoc[Les compétences]
+
+link:entities/creating_features.adoc[La création d’entités]
+
+link:entities/features_evolution.adoc[Les évolutions des différentes entités]
+
+link:entities/orientation_travel.adoc[Orientation et les Déplacements]
+
+link:entities/interactions.adoc[Interactions inter-entités et entités-univers]
+
+link:entities/transport.adoc[Moyens de locomotion]
+
+endif::[]
+
+ifndef::env-github[]
+
 include::entities/general_view.adoc[]
+
 include::entities/playable_entities.adoc[]
+
 include::entities/entities_not_playable.adoc[]
+
 include::entities/objects.adoc[]
+
 include::entities/skills.adoc[]
+
 include::entities/creating_features.adoc[]
+
 include::entities/features_evolution.adoc[]
+
 include::entities/orientation_travel.adoc[]
+
 include::entities/interactions.adoc[]
+
 include::entities/transport.adoc[]
+
+endif::[]
+
+
+
 
 <<<
 
 == Histoire
+
+ifdef::env-github[]
+
+link:story/synopsis.adoc[Synopsis]
+
+link:story/scenario.adoc[Découpage interactif du scénario, dialogues]
+
+link:story/references.adoc[Références et clins d’œil]
+
+endif::[]
+
+ifndef::env-github[]
+
 include::story/synopsis.adoc[]
+
 include::story/scenario.adoc[]
+
 include::story/references.adoc[]
+
+endif::[]
+
 
 <<<
 
 == Choix Artistiques : graphisme et animation 
+
+ifdef::env-github[]
+
+link:game_design/general_view.adoc[Vue générale]
+
+link:game_design/2d.adoc[Aspects 2D]
+
+link:game_design/3d.adoc[Aspects 3D]
+
+link:game_design/animations.adoc[Animations]
+
+link:game_design/kinematic.adoc[Cinématiques]
+
+link:game_design/special_effects.adoc[Effets spéciaux]
+
+link:game_design/user_interface.adoc[Interface utilisateur]
+
+endif::[]
+
+ifndef::env-github[]
+
 include::game_design/general_view.adoc[]
+
 include::game_design/2d.adoc[]
+
 include::game_design/3d.adoc[]
+
 include::game_design/animations.adoc[]
+
 include::game_design/kinematic.adoc[]
+
 include::game_design/special_effects.adoc[]
+
 include::game_design/user_interface.adoc[]
+
+endif::[]
+
 
 <<<
 
 == Choix Artistiques : musiques et bruitages
+
+ifdef::env-github[]
+
+link:sounds/general_view.adoc[Vue générale]
+
+link:sounds/user_interface.adoc[Interface utilisateur et ambiance sonore]
+
+link:sounds/musics.adoc[Musiques]
+
+link:sounds/sounds.adoc[Bruitages]
+
+link:sounds/voice.adoc[Voix]
+
+link:sounds/special_effects.adoc[Effets spéciaux]
+
+endif::[]
+
+ifndef::env-github[]
+
 include::sounds/general_view.adoc[]
+
 include::sounds/user_interface.adoc[]
+
 include::sounds/musics.adoc[]
+
 include::sounds/sounds.adoc[]
+
 include::sounds/voice.adoc[]
+
 include::sounds/special_effects.adoc[]
+
+endif::[]
+
 
 <<<
 
