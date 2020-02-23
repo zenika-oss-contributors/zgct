@@ -1,0 +1,95 @@
+= Game Design Document
+Zenika GCT (Game Creators Team)
+v1.0, 2020-02-17
+:imagesdir: images
+:toc:
+:toc-title: Sommaire
+
+<<gdd>>
+
+'''
+
+<<<
+
+== Présentation générale
+include::general_pres/philosophie.adoc[]
+include::general_pres/faq.adoc[]
+
+<<<
+
+== Mécaniques de jeu (Game Mechanics)
+include::mechanics/gameplay.adoc[]
+include::mechanics/leveldesign.adoc[]
+include::mechanics/gameengine.adoc[]
+
+<<<
+
+== Interface utilisateur
+include::ui/general_view.adoc[]
+include::ui/flow_graph.adoc[]
+include::ui/functional_procedures.adoc[]
+include::ui/gui.adoc[]
+include::ui/control_devices.adoc[]
+
+<<<
+
+== Editeurs (univers et entités)
+include::tools/index.adoc[]
+
+<<<
+
+== L’univers du jeu
+include::world/general_view.adoc[]
+include::world/places.adoc[]
+include::world/travel.adoc[]
+include::world/scale.adoc[]
+include::world/weather.adoc[]
+
+<<<
+
+== Les entités de l’univers
+include::entities/general_view.adoc[]
+include::entities/playable_entities.adoc[]
+include::entities/entities_not_playable.adoc[]
+include::entities/objects.adoc[]
+include::entities/skills.adoc[]
+include::entities/creating_features.adoc[]
+include::entities/features_evolution.adoc[]
+include::entities/orientation_travel.adoc[]
+include::entities/interactions.adoc[]
+include::entities/transport.adoc[]
+
+<<<
+
+== Histoire
+include::story/synopsis.adoc[]
+include::story/scenario.adoc[]
+include::story/references.adoc[]
+
+<<<
+
+== Choix Artistiques : graphisme et animation 
+include::game_design/general_view.adoc[]
+include::game_design/2d.adoc[]
+include::game_design/3d.adoc[]
+include::game_design/animations.adoc[]
+include::game_design/kinematic.adoc[]
+include::game_design/special_effects.adoc[]
+include::game_design/user_interface.adoc[]
+
+<<<
+
+== Choix Artistiques : musiques et bruitages
+include::sounds/general_view.adoc[]
+include::sounds/user_interface.adoc[]
+include::sounds/musics.adoc[]
+include::sounds/sounds.adoc[]
+include::sounds/voice.adoc[]
+include::sounds/special_effects.adoc[]
+
+<<<
+
+[bibliography]
+== References
+
+- [[[gdd,GDD Github source]]] https://github.com/skitoo/game-design-document[Github]
